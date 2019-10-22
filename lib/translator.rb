@@ -1,5 +1,5 @@
 require 'yaml'
-fruits = YAML.load_file('fruits.yml')
+emoticons = YAML.load_file('emoticons.yml')
 
 def load_library(file_path)
   file = File.read(file_path)
