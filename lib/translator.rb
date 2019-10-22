@@ -1,4 +1,4 @@
-require 'yaml'
+require 'emoticons.yaml'
 
 
 def load_library(file_path)
