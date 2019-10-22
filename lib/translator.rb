@@ -1,5 +1,5 @@
 require 'yaml'
-
+fruits = YAML.load_file('fruits.yml')
 
 def load_library(file_path)
   file = File.read(file_path)
