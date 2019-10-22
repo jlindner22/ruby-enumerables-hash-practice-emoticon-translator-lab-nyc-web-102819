@@ -2,6 +2,7 @@ require 'yaml'
 
 
 def load_library(file_path)
+    emojis = YAML.load_file("lib/emoticons.yml")
   file = File.read(file_path)
   emoticons = YAML.load(file)
 end
