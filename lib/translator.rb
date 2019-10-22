@@ -1,8 +1,11 @@
 # require modules here
 
 def load_library
-  # code goes here
-end
+def load_library(library)
+  new_hash = {
+   "get_meaning" => {},
+   "get_emoticon" => {}
+ }end
 
 def get_japanese_emoticon
   # code goes here
