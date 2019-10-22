@@ -1,7 +1,6 @@
 # require modules here
 
 def load_library
-def load_library(library)
   new_hash = {
    "get_meaning" => {},
    "get_emoticon" => {}
