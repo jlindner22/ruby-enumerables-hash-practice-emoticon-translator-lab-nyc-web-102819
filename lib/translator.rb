@@ -1,10 +1,11 @@
-# require modules here
+require 'yaml'
 
 def load_library
   new_hash = {
    "get_meaning" => {},
    "get_emoticon" => {}
- }end
+ }
+ end
 
 def get_japanese_emoticon
   # code goes here
